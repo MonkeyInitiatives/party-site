@@ -11,7 +11,7 @@ const styles = {
 
 function Header (){
         return(
-            <div className="jumbotron jumbotron-fluid" >
+            <div className="jumbotron jumbotron-fluid" style={{background:"none"}}>
                 <div className="container" style={styles.jumbotron}>
                     <h1 className="display-4">Thom's Party Site!</h1>
                     <p className="lead">Are you coming to the party?</p>
