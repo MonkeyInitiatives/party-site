@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import Navbar from './components/Navbar';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Game from './components/Game';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
       <div className="container">
         <h1 style={{textAlign:'center'}}>{this.formatDate(this.theDate)}</h1>
         {/* <Navbar /> */}
-        <Header />
+        {/* <Header /> */}
         <Game theDate={this.theDate}/>
       </div>
     )
