@@ -1,0 +1,12 @@
+body { 
+    background: url(https://images.squarespace-cdn.com/content/v1/59080aa2e4fcb5d6e2675697/1495284920257-5YS4COFLELSZHRE3NTG9/ke17ZwdGBToddI8pDm48kKhl6Rc1dYqS1qz1Ddvxbt8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcLtE6jbomlefxjlv1SY3PZE1bBJc0KjuViY-aa3YRkLL6dq1YBMAqvzlG2eN2RAWL/curtains.jpg?format=2500w) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, .greeting-class{
+    text-align: center;
+    color: white;
+}
