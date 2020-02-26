@@ -11,9 +11,11 @@ const styles = {
 
 function Header (){
         return(
-            <div className="jumbotron jumbotron-fluid" style={{background:"none"}}>
+            <div className="jumbotron jumbotron-fluid" id="the-jumbotron" style={{background:"none"}}>
                 <div className="container" style={styles.jumbotron}>
-                    <h1 className="display-4">Thom's Party Site!</h1>
+                    <h1 className="display-4">'Thom' Party Invite!</h1>
+                    <p className="lead">February 29th, 2020</p>
+                    <p className="lead">starting at 6:30pm</p>
                     <p className="lead">Are you coming to the party?</p>
                 </div>
             </div>

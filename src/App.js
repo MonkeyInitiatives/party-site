@@ -8,17 +8,26 @@ class App extends Component {
 
   constructor(props) {
       super(props);
-      this.theDate= "2020-02-29T12:59-0500";  // I declare the variable here
+      //const event = new Date('');
+      this.theDate= "February 29, 2020 18:30:00 GMT-05:00";  // I declare the variable here
   }
   formatDate(string){
-    var options = {month: 'long', day: 'numeric',year: 'numeric' };
-    return new Date(string).toLocaleDateString([],options);
+    var startDate = new Date(string);
+    var endDate = new Date();
+    /*
+    var startDate = new Date();
+    var endDate   = new Date();
+    var seconds = (endDate.getTime() - startDate.getTime()) / 1000;
+    */
+   var seconds = Math.ceil((startDate.getTime() - endDate.getTime()) / (1000*60*60));
+
+    return seconds;
   }
 
   render() {
     return (
       <div className="container">
-        <h1 style={{textAlign:'center'}}>{this.formatDate(this.theDate)}</h1>
+        <h1 style={{textAlign:'center'}}>{this.formatDate(this.theDate)} Hours Remaining</h1>
         {/* <Navbar /> */}
         <Header />
         <Game theDate={this.theDate}/>

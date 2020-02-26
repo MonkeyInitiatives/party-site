@@ -38,9 +38,13 @@ class Game extends Component {
     }
     
     showGreeting = () =>{
+        document.getElementById("the-jumbotron").style.display = "none";
         return (
             <div className="greeting-class">
-                <h1>There was no other option!</h1>
+                <h1>Glad you decided to say YES!</h1>
+                <br/>
+                <h2>Slack me in our workplace that you are coming</h2>
+                <h2>and I'll send you my address and phone number.</h2>
                 <br/>
                 <h3>
                     Food and beverages
@@ -62,6 +66,10 @@ class Game extends Component {
                     <li>Catch Phrase</li>
                     <li>Cards Against Humanity</li>
                 </ul>  
+                <br/>
+                <h4>
+                    Please bring games and music, and yourselves!
+                </h4>
             </div>
         );
     }
