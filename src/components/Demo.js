@@ -14,9 +14,7 @@ const styles = {
     }
 };
 
-
-
-class Game extends Component {
+class Demo extends Component {
     
 
     state = {
@@ -41,35 +39,9 @@ class Game extends Component {
         document.getElementById("the-jumbotron").style.display = "none";
         return (
             <div className="greeting-class">
-                <h1>Glad you decided to say YES!</h1>
+                <h1>Heck yeah!</h1>
                 <br/>
-                <h2>Slack me in our workplace that you are coming</h2>
-                <h2>and I'll send you my address and phone number.</h2>
-                <br/>
-                <h3>
-                    Food and beverages
-                </h3>
-                <ul style={{listStyleType:"none",paddingLeft:"0px"}}>
-                    <li>Cookies</li>
-                    <li>Chorizo Empanadas</li>
-                    <li>Chips and salsa verde</li>
-                    <li>Wine</li>
-                    <li>Beer</li>
-                    <li>Burbon</li>
-                    <li>Assorted teas</li>
-                </ul>  
-                <h3>
-                    Games
-                </h3>
-                <ul style={{listStyleType:"none",paddingLeft:"0px"}}>
-                    <li>Harry Potter Pictopia</li>
-                    <li>Catch Phrase</li>
-                    <li>Cards Against Humanity</li>
-                </ul>  
-                <br/>
-                <h4>
-                    Please bring games and music, and yourselves!
-                </h4>
+                <h2>It is going to be fun and exciting!</h2>
             </div>
         );
     }
@@ -100,4 +72,4 @@ class Game extends Component {
     };
 }
 
-export default Game;
+export default Demo;
